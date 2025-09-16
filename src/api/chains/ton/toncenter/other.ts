@@ -117,6 +117,6 @@ export function getToncenterHeaders(network: ApiNetwork) {
   return {
     ...apiHeaders,
     ...(apiKey && { 'X-Api-Key': apiKey }),
-    'X-Actions-Version': TONCENTER_ACTIONS_VERSION,
+    // 'X-Actions-Version': TONCENTER_ACTIONS_VERSION,
   };
 }

@@ -27,6 +27,7 @@ const cspConnectSrcHosts = [
   'https://toncenter.mytonwallet.org/',
   'https://raw.githubusercontent.com/ton-blockchain/wallets-list/',
   'https://tonconnectbridge.mytonwallet.org/',
+  'https://toncenter.com/',
   PUSH_API_URL,
 ].filter(Boolean).join(' ');
 

@@ -82,6 +82,7 @@ const cspConnectSrcHosts = [
   TRON_TESTNET_API_URL,
   ensureTrailingSlash(IPFS_GATEWAY_BASE_URL),
   ensureTrailingSlash(SSE_BRIDGE_URL),
+  'https://toncenter.com',
 ].join(' ');
 
 const cspImageSrcHosts = [
@@ -93,6 +94,7 @@ const cspImageSrcHosts = [
   'https://c.tonapi.io',
   'https://imgproxy.toncenter.com',
   'https://web-api.changelly.com',
+  'https://toncenter.com',
 ].join(' ');
 
 // The `media-src` rule contains `data:` because of iOS sound initialization.
