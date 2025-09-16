@@ -212,7 +212,7 @@
     "@mytonwallet/air-app-launcher": "file:mobile/plugins/air-app-launcher",
     "@mytonwallet/capacitor-usb-hid": "github:mytonwallet-org/capacitor-usb-hid#5c20260ee8b0e25fa140c37d42ecb75eea9b23cb",
     "@mytonwallet/native-bottom-sheet": "file:mobile/plugins/native-bottom-sheet",
-    "@ton-community/ton-ledger": "7.2.0",
+    "@ton-community/ton-ledger": "^7.4.0-pre.0",
     "@ton/core": "0.60.1",
     "@ton/ton": "15.2.1",
     "@tonconnect/sdk": "3.1.0",
@@ -237,5 +237,6 @@
     "tweetnacl": "1.0.3",
     "v8-compile-cache": "2.4.0",
     "webextension-polyfill": "0.12.0"
-  }
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }
